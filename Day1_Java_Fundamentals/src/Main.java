@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main 
+{
 
 
-		public static int josephus(int n, int k)
+		public  static int josephus(int n, int k)
 		{
 			if (n == 1)
 				return 1;
@@ -13,12 +14,18 @@ public class Main {
 		}
 		public static void main(String args[])
 		{
-			Scanner s=new Scanner(System.in);
-			int n=s.nextInt();
-			int k=s.nextInt();
-			System.out.println(josephus(n,k));
-		
+			Main m=new Main();
+			Scanner sc=new Scanner(System.in);
+			
+			int n=sc.nextInt();
+			int k=sc.nextInt();
+			System.out.println(m.josephus(n,k));
+			
+			
 		}
+			
+			
+	
 
 
 
