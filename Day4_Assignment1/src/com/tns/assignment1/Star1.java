@@ -15,6 +15,7 @@ public class Star1 {
 				System.out.print("*"+ " ");
 			}
 			System.out.println();
+			s.close();
 			
 		}
 
