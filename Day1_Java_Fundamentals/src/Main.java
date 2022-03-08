@@ -4,7 +4,7 @@ public class Main
 {
 
 
-		public  static int josephus(int n, int k)
+		public  int josephus(int n, int k)
 		{
 			if (n == 1)
 				return 1;
@@ -20,10 +20,10 @@ public class Main
 			int n=sc.nextInt();
 			int k=sc.nextInt();
 			System.out.println(m.josephus(n,k));
-			
+			sc.close();	
+
 			
 		}
-			
 			
 	
 
